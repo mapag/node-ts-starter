@@ -1,0 +1,27 @@
+{
+  "name": "node-ts-starter",
+  "version": "1.0.0",
+  "description": "This is a template repo to use for a Node w/Typescript project. It provides Jest for testing suite and ESLint for lint.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.6.3",
+    "ts-node": "10.7.0",
+    "@types/node": "17.0.25",
+    "jest": "27.5.1",
+    "ts-jest": "27.1.4",
+    "@types/jest": "^27.4.1",
+    "eslint": "8.14.0",
+    "@typescript-eslint/parser": "5.20.0",
+    "@typescript-eslint/eslint-plugin": "5.20.0"
+  }
+}
