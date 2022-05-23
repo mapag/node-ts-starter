@@ -1,4 +1,5 @@
-# Objective
+This is a template repo to start Node projects with Typescript, Jest and ESLint integration, with no additional configuration needed.
 
-This is a template repo to use for a Node w/Typescript project. It provides Jest for testing suite and ESLint for lint.
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
